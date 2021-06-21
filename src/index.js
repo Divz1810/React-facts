@@ -25,11 +25,15 @@ import ReactDOM from "react-dom";
 
 //ADDING JS INSIDE HTML
 const name = "Divyanshi";
+const lastName = "Mishra";
 const number = "29";
 ReactDOM.render(
   <div>
-    <h1>Hello I am {name}!</h1>
+    <h1>
+      Hello I am {name} {lastName}!
+    </h1>
     <p>My lucky number is {number}</p>
   </div>,
   document.getElementById("root")
 );
+//we can write any js expression inside {} but not any statement .only expressions are alllowed.
