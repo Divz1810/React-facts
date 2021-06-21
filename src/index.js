@@ -11,14 +11,25 @@ import ReactDOM from "react-dom";
 //   document.getElementById("root")
 // );
 
+// ReactDOM.render(
+//   <div>
+//     <h1>My Skills</h1>
+//     <ul>
+//       <li>Node js </li>
+//       <li>React js </li>
+//       <li> JS </li>
+//     </ul>
+//   </div>,
+//   document.getElementById("root")
+// );
+
+//ADDING JS INSIDE HTML
+const name = "Divyanshi";
+const number = "29";
 ReactDOM.render(
   <div>
-    <h1>My Skills</h1>
-    <ul>
-      <li>Node js </li>
-      <li>React js </li>
-      <li> JS </li>
-    </ul>
+    <h1>Hello I am {name}!</h1>
+    <p>My lucky number is {number}</p>
   </div>,
   document.getElementById("root")
 );
