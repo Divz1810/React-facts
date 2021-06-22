@@ -18,14 +18,17 @@ ReactDOM.render(
       <img
         className="skill-img"
         src="https://tse4.mm.bing.net/th?id=OIP.SADZ9CkWXMQVH1HpxamqdAHaE4&pid=Api&P=0&w=236&h=156"
+        alt="node"
       ></img>
       <img
         className="skill-img"
         src="https://tse4.mm.bing.net/th?id=OIP.s4-3twOVbpbGEvYDHcopAwHaD8&pid=Api&P=0&w=314&h=168"
+        alt="react"
       ></img>
       <img
         className="skill-img"
         src="https://tse3.mm.bing.net/th?id=OIP.3of4QJ65oynrDrNpgHYXTgHaD4&pid=Api&P=0&w=323&h=170"
+        alt="js"
       ></img>
     </ul>
   </div>,
