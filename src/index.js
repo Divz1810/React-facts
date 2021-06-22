@@ -2,6 +2,8 @@
 //var ReactDOM = require("react-dom");
 import React from "react"; //mordern ES6 method to import.
 import ReactDOM from "react-dom";
+import Heading from "./components/Heading"; //exporting func from heading jsx file
+import List from "./components/List";
 
 // ReactDOM.render(
 //   <div>
@@ -79,19 +81,40 @@ import ReactDOM from "react-dom";
 //  );
 
 //****INTERNAL CSS STYLING*****
-const name = "Divyanshi";
-const lastName = "Mishra";
-const customStyle = {
-  color: "red",
-  fontSize: "30px",
-  border: "1px solid black"
-};
-customStyle.color = "blue"; //changes color
+// const name = "Divyanshi";
+// const lastName = "Mishra";
+// const customStyle = {
+//   color: "red",
+//   fontSize: "30px",
+//   border: "1px solid black"
+// };
+// customStyle.color = "blue"; //changes color
+// ReactDOM.render(
+//   <div>
+//     <h1 style={customStyle}>
+//       Hello I am {name} {lastName}!
+//     </h1>
+//   </div>,
+//   document.getElementById("root")
+// );
+
+//*****REACT COMPONENT******
+// function Heading(){
+//   return <h1>Hello World</h1>
+// }
+
+// ReactDOM.render(
+//   <div>
+//     <Heading></Heading>
+//     <p>HELLO AGAIN</p>
+//   </div>,document.getElementById("root")
+// );
+
+//*****Importing and exporting from JSX file ******
 ReactDOM.render(
   <div>
-    <h1 style={customStyle}>
-      Hello I am {name} {lastName}!
-    </h1>
+    <Heading></Heading>
+    <List />
   </div>,
   document.getElementById("root")
 );
